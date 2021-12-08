@@ -3,6 +3,6 @@
 int main()
 {
 	std::cout << "Hello git\n";
-	std::cout << "add new string\n";
+	std::cout << "PSUGitTest17vv2\n";
 	return 0;
 }
