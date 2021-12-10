@@ -8,5 +8,6 @@ inline void printMessage(const char * message)
 int main()
 {
 	printMessage("pgt => Hello psulab");
+	printMessage("pl  => Hello PSUGitTest17vv2");
 	return 0;
 }
