@@ -1,13 +1,21 @@
 #include <iostream>
 
-inline void printMessage(const char * message)
+inline int sum(int a, int b)
 {
-	std::cout << message << std::endl;
+	return a + b;
 }
 
 int main()
 {
-	printMessage("pgt => Hello psulab");
-	printMessage("pl  => Hello PSUGitTest17vv2");
+	int a, b;
+
+	std::cout << "Enter value: ";
+	std::cin >> a;
+
+	std::cout << "Enter value: ";
+	std::cin >> b;
+
+	std::cout << "Sum = " << sum(a, b) << std::endl;
+
 	return 0;
 }
