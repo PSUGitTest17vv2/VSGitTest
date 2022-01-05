@@ -5,6 +5,11 @@ inline int sum(int a, int b)
 	return a + b;
 }
 
+inline int sub(int a, int b)
+{
+	return a - b;
+}
+
 int main()
 {
 	int a, b;
@@ -16,6 +21,7 @@ int main()
 	std::cin >> b;
 
 	std::cout << "Sum = " << sum(a, b) << std::endl;
+	std::cout << "Sub = " << sub(a, b) << std::endl;
 
 	return 0;
 }
