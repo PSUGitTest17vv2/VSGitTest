@@ -1,21 +1,25 @@
 #include <iostream>
 
-inline int sum(int a, int b)
+template <typename T>
+inline T sum(T a, T b)
 {
 	return a + b;
 }
 
-inline int sub(int a, int b)
+template <typename T>
+inline T sub(T a, T b)
 {
 	return a - b;
 }
 
-inline int mul(int a, int b)
+template <typename T>
+inline T mul(T a, T b)
 {
 	return a * b;
 }
 
-inline float div(float a, float b)
+template <typename T>
+inline T div(T a, T b)
 {
 	return a / b;
 }
