@@ -1,8 +1,8 @@
 #include <iostream>
 
-inline int sum(int a, int b)
+inline int mul(int a, int b)
 {
-	return a + b;
+	return a * b;
 }
 
 int main()
@@ -15,7 +15,7 @@ int main()
 	std::cout << "Enter value: ";
 	std::cin >> b;
 
-	std::cout << "Sum = " << sum(a, b) << std::endl;
+	std::cout << "Mul = " << mul(a, b) << std::endl;
 
 	return 0;
 }
