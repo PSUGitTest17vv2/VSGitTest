@@ -1,17 +1,6 @@
 #include <iostream>
 #include "Header1.h"
-
-template <typename T>
-inline T mul(T a, T b)
-{
-	return a * b;
-}
-
-template <typename T>
-inline T div(T a, T b)
-{
-	return a / b;
-}
+#include "Header2.h"
 
 int main()
 {
