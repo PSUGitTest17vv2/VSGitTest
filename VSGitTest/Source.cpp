@@ -13,12 +13,6 @@ inline T sub(T a, T b)
 }
 
 template <typename T>
-inline T mul(T a, T b)
-{
-	return a * b;
-}
-
-template <typename T>
 inline T div(T a, T b)
 {
 	return a / b;
