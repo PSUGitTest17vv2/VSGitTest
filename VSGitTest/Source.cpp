@@ -1,12 +1,6 @@
 #include <iostream>
 
 template <typename T>
-inline T sum(T a, T b)
-{
-	return a + b;
-}
-
-template <typename T>
 inline T sub(T a, T b)
 {
 	return a - b;
