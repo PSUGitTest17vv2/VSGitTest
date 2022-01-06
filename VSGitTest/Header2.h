@@ -9,4 +9,10 @@ inline T mul(T a, T b)
 	return a * b;
 }
 
+template <typename T>
+inline T div(T a, T b)
+{
+	return a / b;
+}
+
 #endif // !HEADER2_H
