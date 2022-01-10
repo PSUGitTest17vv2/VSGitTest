@@ -7,7 +7,7 @@
 
 int main()
 {
-	float a, b;
+	double a, b;
 
 	std::cout << "Enter value: ";
 	std::cin >> a;
