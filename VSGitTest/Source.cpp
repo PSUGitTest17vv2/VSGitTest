@@ -7,18 +7,18 @@
 
 int main()
 {
-	double a, b;
+	float a, b;
 
-	std::cout << "Enter value = ";
+	std::cout << "Enter \"a\" = ";
 	std::cin >> a;
 
-	std::cout << "Enter value = ";
+	std::cout << "Enter \"b\" = ";
 	std::cin >> b;
 
-	std::cout << "Sum: " << sum(a, b) << std::endl;
-	std::cout << "Sub: " << sub(a, b) << std::endl;
-	std::cout << "Mul: " << mul(a, b) << std::endl;
-	std::cout << "Div: " << div(a, b) << std::endl;
+	std::cout << "Sum = " << sum(a, b) << "\n";
+	std::cout << "Sub = " << sub(a, b) << "\n";
+	std::cout << "Mul = " << mul(a, b) << "\n";
+	std::cout << "Div = " << div(a, b) << "\n";
 
 	return 0;
 }
