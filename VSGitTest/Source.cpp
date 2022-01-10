@@ -9,10 +9,10 @@ int main()
 {
 	double a, b;
 
-	std::cout << "Enter value: ";
+	std::cout << "Enter value = ";
 	std::cin >> a;
 
-	std::cout << "Enter value: ";
+	std::cout << "Enter value = ";
 	std::cin >> b;
 
 	std::cout << "Sum = " << sum(a, b) << std::endl;
