@@ -1,4 +1,7 @@
 #include <iostream>
+
+// My headers
+// -----------------------------------------------------
 #include "Header1.h"
 #include "Header2.h"
 
