@@ -15,10 +15,10 @@ int main()
 	std::cout << "Enter \"b\" = ";
 	std::cin >> b;
 
-	std::cout << "Sum = " << sum(a, b) << "\n";
-	std::cout << "Sub = " << sub(a, b) << "\n";
-	std::cout << "Mul = " << mul(a, b) << "\n";
-	std::cout << "Div = " << div(a, b) << "\n";
+	std::cout << "Sum: " << sum(a, b) << "\n";
+	std::cout << "Sub: " << sub(a, b) << "\n";
+	std::cout << "Mul: " << mul(a, b) << "\n";
+	std::cout << "Div: " << div(a, b) << "\n";
 
 	return 0;
 }
