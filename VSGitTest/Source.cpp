@@ -20,7 +20,7 @@ inline double pow(double value, double power)
 
 int main()
 {
-	float a, b;
+	double a, b;
 
 	std::cout << "Enter a: ";
 	std::cin >> a;
