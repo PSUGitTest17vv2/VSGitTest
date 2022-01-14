@@ -6,6 +6,18 @@
 #include "Header1.h"
 #include "Header2.h"
 
+// My function
+// -----------------------------------------------------
+inline double pow(double value, double power)
+{
+	temp = value;
+
+	while (power--)
+		value *= temp;
+
+	return value;
+}
+
 int main()
 {
 	float a, b;
