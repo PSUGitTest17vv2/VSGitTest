@@ -8,14 +8,6 @@ public:
 		std::cout << "Asking about community building!" << std::endl;
 }
 
-class Application : public IInterviewer
-{
-public:
-	void askQuestions() override {
-		std::cout << "Asking about app development!" << std::endl;
-	}
-};
-
 int main()
 {
 	double a, b;
