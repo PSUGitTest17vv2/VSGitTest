@@ -1,22 +1,13 @@
 #include <iostream>
 #include <cmath>
 
-// My headers
-// -----------------------------------------------------
-#include "Header1.h"
-#include "Header2.h"
-
-// My function
-// -----------------------------------------------------
-inline double pow(double value, double power)
+class CommunityExecutive : public IInterviewer
 {
-	temp = value;
-
-	while (power--)
-		value *= temp;
-
-	return value;
-}
+public:
+	void askQuestions() override {
+		std::cout << "Asking about community building!" << std::endl;
+	}
+};
 
 int main()
 {
