@@ -1,6 +1,18 @@
 #include <iostream>
 #include <cmath>
 
+class HiringManager
+{
+public:
+	void takeInterview() {
+		IInterviewer* interviewer = this->makeInterviewer();
+		interviewer->askQuestions();
+	}
+
+protected:
+	virtual IInterviewer* makeInterviewer() = 0;
+};
+
 int main()
 {
 	double a, b;
