@@ -13,6 +13,12 @@ protected:
 	virtual IInterviewer* makeInterviewer() = 0;
 };
 
+class IInterviewer
+{
+public:
+	virtual void askQuestions() = 0;
+};
+
 int main()
 {
 	double a, b;
