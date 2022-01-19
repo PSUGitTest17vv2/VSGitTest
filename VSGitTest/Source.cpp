@@ -1,21 +1,11 @@
 #include <iostream>
 #include <cmath>
 
-class Application : public IInterviewer
+template <typename T>
+inline T sum(T a, T b)
 {
-public:
-	void askQuestions() override {
-		std::cout << "Asking about app development!" << std::endl;
-	}
-};
-
-class CommunityExecutive : public IInterviewer
-{
-public:
-	void askQuestions() override {
-		std::cout << "Asking about community building!" << std::endl;
-	}
-};
+	return a + b;
+}
 
 int main()
 {
