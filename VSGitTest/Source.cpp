@@ -1,13 +1,6 @@
 #include <iostream>
 #include <cmath>
 
-class CommunityExecutive : public IInterviewer
-{
-public:
-	void askQuestions() override {
-		std::cout << "Asking about community building!" << std::endl;
-}
-
 int main()
 {
 	double a, b;
