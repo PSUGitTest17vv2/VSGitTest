@@ -1,22 +1,12 @@
 #include <iostream>
 #include <cmath>
 
-class HiringManager
+class Application : public IInterviewer
 {
 public:
-	void takeInterview() {
-		IInterviewer* interviewer = this->makeInterviewer();
-		interviewer->askQuestions();
+	void askQuestions() override {
+		std::cout << "Asking about app development!" << std::endl;
 	}
-
-protected:
-	virtual IInterviewer* makeInterviewer() = 0;
-};
-
-class IInterviewer
-{
-public:
-	virtual void askQuestions() = 0;
 };
 
 int main()
